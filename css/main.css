@@ -1,1 +1,16 @@
 /* Los estilos de tu proyecto */
+img{
+width: 90%
+}
+
+div.jumbotron#first-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  div.jumbotron#first-image {
+    background-image: url('../assets/images/taxi.jpg');
+    height: 150vh;
+  }
