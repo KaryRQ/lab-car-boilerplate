@@ -1,21 +1,22 @@
-
-
-.container-fluid,
-.principal-header,
-.row{
-  padding: 0;
-  margin: 0;
+#lines{
+  display: inline-block;
+ padding: 15% 10% 30% 10%;
 }
 
-.navbar-header{
-  padding: 0;
-}
-.navbar-right{
-  padding-top: 1%;
-  margin-right: 10%;
-}
-.navbar-right>li>a{
+
+.fa {
+  font-size: 2em !important;
+  line-height: 10% !important;
   color: black;
+}
+
+.logo{
+  display: inline;
+}
+
+
+.navbar-right>li>a{
+  color: #2B2B2B;
 }
 
 
@@ -36,6 +37,7 @@
   width: 35%;
   color: white;
   border: none; 
+  height: 50vh;
 }
 .viaja{
   margin-left: 5%;
@@ -58,5 +60,18 @@
   border-bottom:2px solid white;
   border-right:2px solid white;
   height: 70vh;
-  width: 70%;
+  width: 80%;
+}
+
+.conductor{
+  width: 50%;
+}
+
+.info{
+  margin-right: 17%;
+  margin-top:7%;
+}
+
+.iphone{
+  margin-top: 7%;
 }
