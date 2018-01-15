@@ -1,17 +1,25 @@
-#lines{
-  display: inline-block;
- padding: 15% 10% 30% 10%;
+div,
+.row{
+  padding: 0;
+  margin: 0;
+}
+header{
+  padding:2% 0 4% 0;
 }
 
 
-.fa {
+.fa-bars {
   font-size: 2em !important;
   line-height: 10% !important;
   color: black;
+  display: inline-block;
+  padding: 12% 6% 15% 0;
+
 }
 
 .logo{
   display: inline;
+  padding: 5% 0;
 }
 
 
@@ -20,14 +28,14 @@
 }
 
 
-
+/*estulo de jumbotron de taxi version escritorio*/
 .jumbotron.uno {
-    background-position: bottom;
+    background-position:0 93%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
     background-image: url('../assets/images/taxi.jpg');
-    height: 100vh;
+    height: 76vh;
   }
 
  
@@ -37,21 +45,94 @@
   width: 35%;
   color: white;
   border: none; 
-  height: 50vh;
+  height: 38vh;
+  margin-top: 10%;
 }
 .viaja{
-  margin-left: 5%;
+  margin-left: 7%;
 }
-
+.linea {
+  border: 1px solid white;
+  display: inline-block;
+  width: 20%;
+  margin: 3px 49px;
+}
+.bien{
+  display: inline-block;
+}
 .logo-blanco{
   width: 15%;
-  margin-top: 3%;
-  margin-bottom:1%;
+  margin-top: 2%;
+  margin-bottom:5%;
 }
 
-.jumbotron.dos{
-  height: 80vh;
+/*estilo botones*/
+.registro,
+.conductor,
+.conductor-uno,
+.app{
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.conductor{
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+.conductor-uno{
   background-color: #F7B617;
+  color: white;
+  margin-left:6%;
+}
+.conductor-uno-movil{
+  background-color: #F7B617;
+  color: white;
+  margin-left:8%;
+}
+.app{
+  margin-left: 1%;
+}
+.registro{
+  margin-bottom: 2%;
+  margin-left: 4%;
+}
+
+/*estilo jumbotron versión móvil taxi*/
+.jumbotron.uno-movil {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  background-image: url('../assets/images/taxi.jpg');
+  height: 60vh;
+}
+
+.panel-default-uno{
+  width: 80%;
+  float: right;
+  color: white;
+  border: none;
+  height: 26vh;
+  background-color: #F7B617;
+  margin-top: 20%;
+
+}
+.letter{
+  padding: 1%;
+}
+.logo-blanco-dos{
+  width: 19%;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+/*estilos jumbotron que contiene e celular
+versión escritorio*/
+.jumbotron.dos{
+  height: 55vh;
+  background-color: #F7B617;
+  margin-bottom: 0px;
 }
 
 .panel-dos{
@@ -59,19 +140,192 @@
   border-top:2px solid white;
   border-bottom:2px solid white;
   border-right:2px solid white;
-  height: 70vh;
+  height: 45vh;
   width: 80%;
+  color: white;
 }
-
-.conductor{
-  width: 50%;
-}
-
 .info{
   margin-right: 17%;
-  margin-top:7%;
+  margin-top:7%;  
 }
 
 .iphone{
-  margin-top: 7%;
+  margin-top: 9%;
+  height: 36vh;
+}
+
+/*estilos jumbotron que contiene e celular
+versión escritorio*/
+.jumbotron.dos-movil{
+  height: 56vh;
+  background-color: #F7B617;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.panel-dos-movil{
+  background:none;
+  border:2px solid white;
+  height: 43vh;
+  width: 80%;
+  margin-left:12%;
+}
+
+.nueva-app{
+text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+.iphone-movil{
+	display:inline-block;
+  height: 30vh;
+  margin: 0 17%;
+}
+.destino{
+  margin-top: 20%;
+color: white;
+text-align: left;
+font-size: 84%;
+font-weight: 100;
+}
+
+/*estilos jumbotron conductor*/
+.jumbotron.tres{
+  height: 55vh;
+  background-position: 0% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  background-image: url('../assets/images/conduce.jpg');
+  
+}
+.panel-tres{
+  width: 32%;
+  float: right;
+  color: white;
+  border: none;
+  height: 49vh;
+  margin-right: 1%;
+  background: rgba(1, 1, 3, .5);
+}
+
+.conduce{
+  margin-top: 36%;
+}
+
+
+/*estilos jumbotron condictor para móvil*/
+.jumbotron.tres-movil{
+  height: 35vh;
+  background-position: 100% 11%;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  margin-bottom: 0px;
+  background-image: url('../assets/images/conduce.jpg');
+  
+}
+.panel-tres-movil{
+  width: 100%;
+  float: right;
+  color: white;
+  border: none;
+  height: 100hv;
+  margin-top: -7%;
+  background: rgba(1, 1, 3, .5);
+}
+
+.conduce-movil{
+  margin-top: 10%;
+  text-align: center;
+  
+}
+.lab{
+  margin-left: 5%;
+  font-weight:100;
+}
+
+/*estilos mapa*/
+.jumbotron.cuatro{
+  height: 64vh;
+  background-color: #F7B617;
+  margin-bottom: 0px;
+}
+
+.form-control{
+  background-color: #F7B617;
+  border-color: white;
+  margin: 5% 0 5%;
+  border-radius: -16%;
+}
+
+.pull-left{
+  margin: 5% 0 5%;
+}
+.tarifa{
+  color: white;
+}
+
+.trazar{
+  padding: 5% 12%;
+  font-weight:bolder;
+  background-color: white;
+  color: black;
+}
+.mapa{
+  margin:0 0 0 3%;
+  border: 1px solid white;
+	padding: 1%;
+}
+
+/*estilos mapa móvil*/
+.jumbotron.cuatro-movil{
+  height: 100vh;
+  background-color: #F7B617;
+  margin-bottom: 0px;
+}
+.trazar-movil{
+  padding: 5% 9% 1% 3%;
+}
+.mapa-movil{
+  margin:5% 0 0 3%;
+  border: 1px solid white;
+	padding: 1%;
+}
+
+/*footer escritorio*/
+footer{
+  background-color: #2B2B2B;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.iconos>a,
+.links>li>a,
+.nuevos-links>li>a,
+.iconos-movil>a>i,
+.links-movil>li>a{
+  text-decoration: none;
+  color: white;
+}
+
+.iconos{
+  margin-top: 55%;
+}
+
+.links,
+.nuevos-links{
+  margin: 0 0 0  3%;
+}
+.compras>a>img{
+  width: 45%;
+  margin-top: 15%;
+  
+}
+
+/*footer mpovil*/
+.iconos-movil{
+  float: right;
+  margin-right: 15%;
+  margin-bottom: 15%
 }
